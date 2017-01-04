@@ -1,7 +1,10 @@
 To run program
 
-`ruby primes.rb`
+```
+ruby primes.rb
+```
 
 To run tests
 
-`rspec`
+```rspec
+```
