@@ -9,7 +9,7 @@ class PrimeGenerator
 	end
 
 	def new_prime
-		puts "Please enter number of primes"
+		puts "Please enter the number of primes you wish to display multiplied"
 		prompt()
 		n = gets.strip.to_i
 		print_table(n)
