@@ -6,5 +6,6 @@ ruby primes.rb
 
 To run tests
 
-```rspec
+```
+rspec
 ```
