@@ -15,7 +15,6 @@ class PrimeGenerator
 		print_table(n)
 	end
 
-
 	def is_prime?(n)
 		(2...n).each do |divisor|
 			return false if n % divisor == 0
@@ -39,7 +38,7 @@ class PrimeGenerator
 		rows = prime_generate(n)
 		columns = rows
 		print "\n\n"
-		print "     "
+		print "   |"
 		columns.each {|column_num| print " %-3d " % column_num}
 		print "\n"
 		print "___+" + ("_____" * rows.size) 
