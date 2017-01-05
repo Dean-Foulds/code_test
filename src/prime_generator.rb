@@ -23,15 +23,15 @@ class PrimeGenerator
 	end
 
 	def prime_generate(n)
-		@primes = []
+		primes = []
 		counter = 2
-		until @primes.size == n
+		until primes.size == n
 			if is_prime?(counter)
-				@primes << counter
+				primes << counter
 			end
 			counter += 1
 		end
-		@primes
+		primes
 	end
 
 	def print_table(n)
